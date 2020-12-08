@@ -57,7 +57,7 @@ button {
     border-radius: 10px;
     border-color: black;
     border: 3px solid;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 .eindvierkant {
@@ -247,15 +247,15 @@ img {vertical-align: middle;}
   .prev, .next,.text {font-size: 11px}
 }
 .vierkantXR{
-  height: 280px;
-  width: 500px;
+  height: 290px;
+  width: 490px;
   background-color: black;
   border-radius: 10px;
   margin: 0 auto;
   margin-top: 180px;
 }
 .buttonXR{
-    height: 40px;
+    height: 60px;
     width: 100px;
     background-color: rgb(255, 255, 255); /* Green */
     border: none;
