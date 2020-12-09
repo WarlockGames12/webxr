@@ -257,9 +257,9 @@ img {vertical-align: middle;}
 .buttonXR{
     height: 70px;
     width: 100px;
-    background-color: rgb(255, 255, 255); /* Green */
+    background-color: rgb(0, 0, 0); /* Green */
     border: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 16px 32px;
     text-align: left;
     text-decoration: none;
@@ -269,7 +269,6 @@ img {vertical-align: middle;}
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 10px;
-    margin-top: 130px;
     margin-left: 210px;
     padding-bottom: 45px;
 }
