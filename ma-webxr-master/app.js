@@ -11,24 +11,24 @@ minecraftModel.setRotation(0, -36.95, 0);
 // create a model
 const cuberoom = new Model('assets/models/cube-room/cube-room.gltf');
 cuberoom.setPosition(-2.50535, 0.91001, -3.21484);
-cuberoom.setScale(0.33668, 0.44443, 0.16213);
+cuberoom.setScale(0.5, 0.6, 0.4);
 cuberoom.setRotation(0, -36.95, 0);
 
 // create a primitive (sphere)
 const sphere = new Sphere();
 sphere.setColor('red');
-sphere.setRadius(0.75);
-sphere.setPosition(1, 2, -1);
+sphere.setRadius(0.45);
+sphere.setPosition(-4, 2, -4.5);
 
 // create some text
 const testText = new Text('WebXr van Thies en Dirk');
-testText.setPosition(1, 3.5, -5);
+testText.setPosition(2, 5, -3);
 testText.setFontsize(10);
 testText.setRotation(0, -36.95, 0);
 
 // create an image
 const image = new XRImage('assets/images/sampleImage.jpg');
-image.setPosition(-2, 1.5, -1);
+image.setPosition(-2.5, 2.25, -4);
 image.setRotation(0, -36.95, 0);
 
 // create a 360 image
