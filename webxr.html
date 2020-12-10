@@ -3,6 +3,9 @@
 <head>
 	<title>Webxr LAM ervaring</title>
 	<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+	<script src="library/aframe.js"></script>
+	<script src="library/ma-webxr.js"></script>
+	<script src="app.js"></script>
 	<link rel="shortcut icon" href="images/images.png" />
     <link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
@@ -19,8 +22,6 @@
 			  <img id="painttexture" src="assets/models/minecraft/textures/paintcan.png">
               <img id="skyTexture" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/sechelt.jpg">
            </a-assets>	
-		   
-			
 		   
            <a-sphere position="0 1.25 -5" radius="1.25" src="#boxTexture"></a-sphere>
 		   <a-model position="0 1.25 -7" rotation="0 100 0" src="assets/models/minecraft/source/paintcan.blend"></a-model>
