@@ -16,18 +16,20 @@ cuberoom.setRotation(0, -36.95, 0);
 
 // create a primitive (sphere)
 const sphere = new Sphere();
-sphere.setColor('green');
-sphere.setRadius(0.5);
-sphere.setPosition(3, 2, -4);
+sphere.setColor('red');
+sphere.setRadius(0.75);
+sphere.setPosition(1, 2, -1);
 
 // create some text
-const testText = new Text('Mediacollege Amsterdam WebXR');
-testText.setPosition(1.5, 0, -5);
+const testText = new Text('WebXr van Thies en Dirk');
+testText.setPosition(1, 3.5, -5);
 testText.setFontsize(10);
+testText.setRotation(0, -36.95, 0);
 
 // create an image
 const image = new XRImage('assets/images/sampleImage.jpg');
-image.setPosition(-1.48819, 2.45839, -5);
+image.setPosition(-2, 1.5, -1);
+image.setRotation(0, -36.95, 0);
 
 // create a 360 image
 const image360 = new Sky('assets/360_world.jpg');
