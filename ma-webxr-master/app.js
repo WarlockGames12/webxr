@@ -31,6 +31,11 @@ const image = new XRImage('assets/images/sampleImage.jpg');
 image.setPosition(-2.5, 2.25, -4);
 image.setRotation(0, -36.95, 0);
 
+//monke
+const monke = new XRImage('assets/images/monke1.png');
+monke.setPosition(-2.5, 3.5, -4);
+monke.setRotation(0, -36.95, 0);
+
 // create a 360 image
 const image360 = new Sky('assets/360_world.jpg');
 
