@@ -8,11 +8,17 @@ minecraftModel.setPosition(0, 1.54, -5);
 minecraftModel.setScale(0.1, 0.1, 0.1);
 minecraftModel.setRotation(0, -36.95, 0);
 
+// create a model
+const cuberoom = new Model('assets/models/cube-room/cube-room.gltf');
+cuberoom.setPosition(-2.50535, 0.91001, -3.21484);
+cuberoom.setScale(0.33668, 0.44443, 0.16213);
+cuberoom.setRotation(0, -36.95, 0);
+
 // create a primitive (sphere)
 const sphere = new Sphere();
 sphere.setColor('green');
 sphere.setRadius(0.5);
-sphere.setPosition(-3, 0, -5);
+sphere.setPosition(3, 2, -4);
 
 // create some text
 const testText = new Text('Mediacollege Amsterdam WebXR');
