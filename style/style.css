@@ -1,5 +1,12 @@
-﻿body {
+﻿@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Economica:wght@700&family=Yellowtail&display=swap%27');
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
     background-color: white;
+    font-family: 'Economica', sans-serif;
 }
 
 .vierkant {
@@ -128,6 +135,9 @@ p{
   z-index: 1;
   border-radius: 10px;
   background-color: white;
+}
+#contact{
+
 }
 
 .dropdown-content a {
