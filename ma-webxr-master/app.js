@@ -45,3 +45,5 @@ spotLight.setTarget(minecraftModel);
 
 // listen for an event
 minecraftModel.addEventListener('click', () => console.log('je klikt op mij'));
+
+const lucht = new Sky ('../assets/images/Lisse-ingang.jpg');
