@@ -8,6 +8,7 @@ minecraftModel.setPosition(-2, 1.75, -3);
 minecraftModel.setScale(0.05, 0.05, 0.05);
 minecraftModel.setRotation(0, -36.95, 0);
 
+
 // create a model
 const cuberoom = new Model('assets/models/cube-room/cube-room.gltf');
 cuberoom.setPosition(-2.50535, 0.91001, -3.21484);
@@ -47,3 +48,8 @@ spotLight.setTarget(minecraftModel);
 minecraftModel.addEventListener('click', () => console.log('je klikt op mij'));
 
 const lucht = new Sky ('../assets/images/Lisse-ingang.jpg');
+
+const paintModel = new model('assets/models/minecraft/source/paintcan.blend')
+paintModel.setPosition(-2, 3, -3);
+paintModel.setScale(0.05, 0.05, 0.05);
+paintModel.setRotation(0, -36.95, 0);
