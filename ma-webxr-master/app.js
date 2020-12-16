@@ -4,16 +4,16 @@ controls.enableMovement();
 
 // create a model
 const minecraftModel = new Model('assets/models/minecraft/scene.gltf');
-minecraftModel.setPosition(-2, 1.75, -3);
-minecraftModel.setScale(0.05, 0.05, 0.05);
-minecraftModel.setRotation(0, -36.95, 0);
+minecraftModel.setPosition(-0.181, 3.732, -11.027);
+minecraftModel.setScale(0.055, 0.049, 0.050);
+minecraftModel.setRotation(0.55, -2.394, 0);
 
 
 // create a model
 const cuberoom = new Model('assets/models/cube-room/cube-room.gltf');
-cuberoom.setPosition(-2.50535, 0.91001, -3.21484);
-cuberoom.setScale(0.5, 0.6, 0.4);
-cuberoom.setRotation(0, -36.95, 0);
+cuberoom.setPosition(-0.115, 0.91001, -6.459);
+cuberoom.setScale(0.903, 0.838, 0.933);
+cuberoom.setRotation(0, 3.381, 0);
 
 // create a primitive (sphere)
 const sphere = new Sphere();
@@ -28,14 +28,15 @@ testText.setFontsize(10);
 testText.setRotation(0, -36.95, 0);
 
 // create an image
-const image = new XRImage('assets/images/sampleImage.jpg');
-image.setPosition(-2.5, 2.25, -4);
-image.setRotation(0, -36.95, 0);
-
-//monke
-const monke = new XRImage('assets/images/monke1.png');
-monke.setPosition(-2.5, 3.5, -4);
-monke.setRotation(0, -36.95, 0);
+const image = new XRImage('assets/images/Lisse-049.jpg');
+image.setPosition(2.512, 2.592, -11.194);
+image.setRotation(-0, 5.977, -0.605);
+image.setScale(2.289, 1.987, 0.017);
+//Folkert
+const Folkert = new XRImage('assets/images/FolkertdeJong.jpg');
+Folkert.setPosition(-2.845, 2.592, -10.868);
+Folkert.setRotation(-0, 5.977, -0.605);
+Folkert.setScale(2.289, 1.987, 0.017)
 
 // create a 360 image
 const image360 = new Sky('assets/360_world.jpg');
@@ -45,7 +46,7 @@ spotLight.setPosition(-3.39382, 4.72931, 1.37905);
 spotLight.setTarget(minecraftModel);
 
 // listen for an event
-minecraftModel.addEventListener('click', () => alert('je klikt op mij'));
+// minecraftModel.addEventListener('click', () => alert('je klikt op mij'));
 
 // const lucht = new Sky ('../assets/images/Lisse-ingang.jpg');
 
