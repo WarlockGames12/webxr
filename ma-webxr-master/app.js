@@ -45,9 +45,9 @@ spotLight.setPosition(-3.39382, 4.72931, 1.37905);
 spotLight.setTarget(minecraftModel);
 
 // listen for an event
-minecraftModel.addEventListener('click', () => console.log('je klikt op mij'));
+minecraftModel.addEventListener('click', () => alert('je klikt op mij'));
 
-const lucht = new Sky ('../assets/images/Lisse-ingang.jpg');
+// const lucht = new Sky ('../assets/images/Lisse-ingang.jpg');
 
 const paintModel = new model('assets/models/minecraft/source/paintcan.blend')
 paintModel.setPosition(-2, 3, -3);
