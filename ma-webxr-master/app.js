@@ -4,7 +4,7 @@ controls.enableMovement();
 
 // create a model
 const minecraftModel = new Model('assets/models/minecraft/scene.gltf');
-minecraftModel.setPosition(-0.181, 3.732, -11.027);
+minecraftModel.setPosition(-0.181, 3.732, -12.027);
 minecraftModel.setScale(0.055, 0.049, 0.050);
 minecraftModel.setRotation(0.55, -2.394, 0);
 
@@ -37,6 +37,11 @@ const Folkert = new XRImage('assets/images/FolkertdeJong.jpg');
 Folkert.setPosition(-2.845, 2.592, -10.868);
 Folkert.setRotation(-0, 5.977, -0.605);
 Folkert.setScale(2.289, 1.987, 0.017)
+// vrouw met baby
+const vrouwmetbaby = new XRImage('../assets/images/Lisse-004.png')
+vrouwmetbaby.setPosition(-0.2, 2.592, -10.220);
+vrouwmetbaby.setRotation(-0, 5.977, -0.605);
+vrouwmetbaby.setScale(2.289, 1.987, 0.017);
 
 
 
