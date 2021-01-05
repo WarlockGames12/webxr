@@ -38,6 +38,8 @@ Folkert.setPosition(-2.845, 2.592, -10.868);
 Folkert.setRotation(-0, 5.977, -0.605);
 Folkert.setScale(2.289, 1.987, 0.017)
 
+
+
 // create a 360 image
 const image360 = new Sky('assets/360_world.jpg');
 
