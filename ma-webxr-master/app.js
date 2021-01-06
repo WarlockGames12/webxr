@@ -22,10 +22,20 @@ sphere.setRadius(0.45);
 sphere.setPosition(0, 6, -6.5);
 
 // create some text
-const testText = new Text('WebXr van Thies en Dirk');
-testText.setPosition(2, 5, -3);
-testText.setFontsize(10);
-testText.setRotation(0, -36.95, 0);
+const testText = new Text('WebXr gemaakt door: Thies van der Zon en Dirk ten Have');
+testText.setPosition(5, 5, -1);
+testText.setFontsize(4);
+testText.setRotation(0, 270, 0);
+
+const credits = new Text('Opdracht voor het Lisse Art Museum');
+credits.setPosition(5, 3, -1);
+credits.setFontsize(4);
+credits.setRotation(0, 270, 0);
+
+const credits1 = new Text('Opdrachtgever: Rosmerta Goei & Ed Schenk');
+credits1.setPosition(5, 2, -1);
+credits1.setFontsize(4);
+credits1.setRotation(0, 270, 0);
 
 // create an image
 const image = new XRImage('assets/images/Lisse-049.jpg');
@@ -66,6 +76,10 @@ poppen.setPosition(-3.9, 2.592, -4.220);
 poppen.setRotation(-0, 90, -0.605);
 poppen.setScale(2.289, 1.987, 0.017);
 
+const ingang = new XRImage('../assets/images/GateMuzeum.png')
+ingang.setPosition(0.1, 3.4, -1.75);
+ingang.setRotation(-0, 2.75, 0);
+ingang.setScale(9, 5, 0.017);
 
 
 
