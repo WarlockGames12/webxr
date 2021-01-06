@@ -51,6 +51,13 @@ Tafelmetkunst.setPosition(4.2824, 3.05, -7.227);
 Tafelmetkunst.setRotation(-0.019, -88.0417, -0.605);
 Tafelmetkunst.setScale(2.215, 1.54, 0.2);
 
+const potten = new XRImage('../assets/images/Lisse-006.png')
+potten.setPosition(-3.9, 2.592, -8.220);
+potten.setRotation(-0, 90, -0.605);
+potten.setScale(2.289, 1.987, 0.017);
+
+
+
 
 // create a 360 image
 const image360 = new Sky('assets/360_world.jpg');
