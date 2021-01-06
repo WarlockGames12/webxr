@@ -19,7 +19,7 @@ cuberoom.setRotation(0, 3.381, 0);
 const sphere = new Sphere();
 sphere.setColor('red');
 sphere.setRadius(0.45);
-sphere.setPosition(-4, 2, -4.5);
+sphere.setPosition(0, 6, -6.5);
 
 // create some text
 const testText = new Text('WebXr van Thies en Dirk');
@@ -51,10 +51,20 @@ Tafelmetkunst.setPosition(4.2824, 3.05, -7.227);
 Tafelmetkunst.setRotation(-0.019, -88.0417, -0.605);
 Tafelmetkunst.setScale(2.215, 1.54, 0.2);
 
+const ruiken = new XRImage('../assets/images/Lisse-003.png')
+ruiken.setPosition(4.2824, 3.05, -4);
+ruiken.setRotation(-0.019, -88.0417, -0.605);
+ruiken.setScale(2.215, 1.54, 0.2);
+
 const potten = new XRImage('../assets/images/Lisse-006.png')
 potten.setPosition(-3.9, 2.592, -8.220);
 potten.setRotation(-0, 90, -0.605);
 potten.setScale(2.289, 1.987, 0.017);
+
+const poppen = new XRImage('../assets/images/Lisse-001.png')
+poppen.setPosition(-3.9, 2.592, -4.220);
+poppen.setRotation(-0, 90, -0.605);
+poppen.setScale(2.289, 1.987, 0.017);
 
 
 
