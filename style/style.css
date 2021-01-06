@@ -7,6 +7,7 @@ html{
 body {
     background-color: white;
     font-family: 'Economica', sans-serif;
+	animation: transitionIn 0.75s;
 }
 
 .vierkant {
@@ -302,4 +303,15 @@ img {vertical-align: middle;}
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 10px;
   padding-bottom: 5px;
+}
+
+@keyframes transitionIn{
+	from {
+		opacity: 0;
+		transform: translateY(-10px);
+	}
+	to{
+		opacity: 1;
+		transform: translateY(0);
+	}
 }
