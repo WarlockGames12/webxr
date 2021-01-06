@@ -43,6 +43,12 @@ vrouwmetbaby.setPosition(-0.2, 2.592, -10.220);
 vrouwmetbaby.setRotation(-0, 5.977, -0.605);
 vrouwmetbaby.setScale(2.289, 1.987, 0.017);
 
+const potten = new XRImage('../assets/images/Lisse-006.png')
+potten.setPosition(-3.9, 2.592, -8.220);
+potten.setRotation(-0, 90, -0.605);
+potten.setScale(2.289, 1.987, 0.017);
+
+
 
 
 // create a 360 image
