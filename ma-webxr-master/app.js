@@ -33,16 +33,23 @@ image.setPosition(2.512, 2.592, -11.194);
 image.setRotation(-0, 5.977, -0.605);
 image.setScale(2.289, 1.987, 0.017);
 //Folkert
+
 const Folkert = new XRImage('assets/images/FolkertdeJong.jpg');
 Folkert.setPosition(-2.845, 2.592, -10.868);
 Folkert.setRotation(-0, 5.977, -0.605);
 Folkert.setScale(2.289, 1.987, 0.017)
 // vrouw met baby
+
 const vrouwmetbaby = new XRImage('../assets/images/Lisse-004.png')
-vrouwmetbaby.setPosition(-0.2, 2.592, -10.220);
+vrouwmetbaby.setPosition(-0.2, 2.592, -10.315);
 vrouwmetbaby.setRotation(-0, 5.977, -0.605);
 vrouwmetbaby.setScale(2.289, 1.987, 0.017);
 
+// tafel met kunst
+const Tafelmetkunst = new XRImage('../assets/images/Lisse-art.jpg')
+Tafelmetkunst.setPosition(4.2824, 3.05, -7.227);
+Tafelmetkunst.setRotation(-0.019, -88.0417, -0.605);
+Tafelmetkunst.setScale(2.215, 1.54, 0.2);
 
 
 // create a 360 image
