@@ -31,7 +31,7 @@ credits.setPosition(5, 3, -1);
 credits.setFontsize(4);
 credits.setRotation(0, 270, 0);
 
-const credits1 = new Text('Opdrachtgever: Rosmerta Goei & Ed Schenk');
+const credits1 = new Text('Opdrachtgever: Lisse Art Museum');
 credits1.setPosition(5, 2, -1);
 credits1.setFontsize(4);
 credits1.setRotation(0, 270, 0);
@@ -79,6 +79,16 @@ const ingang = new XRImage('../assets/images/GateMuzeum.png')
 ingang.setPosition(0.1, 3.4, -1.75);
 ingang.setRotation(-0, 2.75, 0);
 ingang.setScale(9, 5, 0.017);
+
+const deur1 = new XRImage('../assets/images/Linkerdeur.png')
+deur1.setPosition(0.1, 3.4, -1.75);
+deur1.setRotation(-0, 2.75, 0);
+deur1.setScale(9, 5, 0.017);
+
+const deur2 = new XRImage('../assets/images/Rechterdeur.png')
+deur2.setPosition(2, 2, -4);
+deur2.setRotation(180, 270, 0);
+deur2.setScale(9, 5, 0.017);
 
 
 
