@@ -89,7 +89,7 @@ deur1.setScale(9, 5, 0.017);
 const deur2 = new XRImage('../assets/images/Rechterdeur.png')
 deur2.setPosition(2, 2, -4);
 deur2.setRotation(180, 270, 0);
-deur2.setScale(9, 5, 0.017);
+deur2.setScale(9, 5, 1);
 
 
 
