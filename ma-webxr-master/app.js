@@ -91,6 +91,15 @@ deur2.setRotation(0, -134.6, 179);
 deur2.setScale(9, 5, 1);
 
 
+const melkmeisje = new Model('../assets/models/vermeer/export_museumprops.babylon.gltf')
+melkmeisje.setPosition(2, 1, -4.227);
+melkmeisje.setRotation(-0.019, -50.0417, -0.605);
+melkmeisje.setScale(45.215, 46.54, 50);
+
+
+
+
+
 // create a 360 image
 const image360 = new Sky('assets/360_world.jpg');
 
