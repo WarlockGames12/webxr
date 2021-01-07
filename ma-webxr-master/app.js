@@ -8,7 +8,6 @@ minecraftModel.setPosition(-0.181, 3.732, -12.027);
 minecraftModel.setScale(0.055, 0.049, 0.050);
 minecraftModel.setRotation(0.55, -2.394, 0);
 
-
 // create a model
 const cuberoom = new Model('assets/models/cube-room/cube-room.gltf');
 cuberoom.setPosition(-0.115, 0.91001, -6.459);
@@ -109,3 +108,10 @@ const paintModel = new model('assets/models/minecraft/source/paintcan.blend')
 paintModel.setPosition(-2, 3, -3);
 paintModel.setScale(0.05, 0.05, 0.05);
 paintModel.setRotation(0, -36.95, 0);
+
+Folkert.addEventListener('click', () => 
+    document.getElementById('extraText').innerText= "Kunstwerk van Folkert de Jong");
+
+    
+// document.querySelector('#yourHotspot').addEventListener('mouseenter', function () {
+//             document.querySelector('Folkert kunstwerk').setAttribute('visible', true);
