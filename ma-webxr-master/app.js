@@ -1,5 +1,5 @@
 // voeg controls toe (teleport & WASD controls)
-const controls = new Controls(50);
+const controls = new Controls(130);
 controls.enableMovement();
 
 // create a model
@@ -91,7 +91,6 @@ deur2.setRotation(0, -134.6, 179);
 deur2.setScale(9, 5, 1);
 
 
-
 // create a 360 image
 const image360 = new Sky('assets/360_world.jpg');
 
@@ -109,9 +108,8 @@ paintModel.setPosition(-2, 3, -3);
 paintModel.setScale(0.05, 0.05, 0.05);
 paintModel.setRotation(0, -36.95, 0);
 
-Folkert.addEventListener('click', () => 
-    document.getElementById('extraText').innerText= "Kunstwerk van Folkert de Jong");
+Folkert.addEventListener('click', () => alert('je klikt op mij'));
 
-    
-// document.querySelector('#yourHotspot').addEventListener('mouseenter', function () {
-//             document.querySelector('Folkert kunstwerk').setAttribute('visible', true);
+
+// document.getElementById('extraText').innerText= "Kunstwerk van Folkert de Jong");
+
