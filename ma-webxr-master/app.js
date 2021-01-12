@@ -36,13 +36,18 @@ credits1.setPosition(5, 2, -1);
 credits1.setFontsize(4);
 credits1.setRotation(0, 270, 0);
 
+const Tutorial = new Text('Klik op de fotos om de context te weten van deze kunstwerken');
+Tutorial.setPosition(-3, 4.2, -10.95);
+Tutorial.setFontsize(1);
+Tutorial.setRotation(-0, 1.987, 0.017);
+
 // create an image
 const image = new XRImage('assets/images/Lisse-049.jpg');
 image.setPosition(2.512, 2.592, -11.194);
 image.setRotation(-0, 5.977, -0.605);
 image.setScale(2.289, 1.987, 0.017);
 
-image.addEventListener('click', () => alert('haha'));
+image.addEventListener('click', () => alert('Kunst op Muur'));
 
 //Folkert
 const Folkert = new XRImage('assets/images/FolkertdeJong.jpg');
@@ -58,7 +63,7 @@ vrouwmetbaby.setPosition(-0.2, 2.592, -10.315);
 vrouwmetbaby.setRotation(-0, 5.977, -0.605);
 vrouwmetbaby.setScale(2.289, 1.987, 0.017);
 
-vrouwmetbaby.addEventListener('click', () => alert('tekst'));
+vrouwmetbaby.addEventListener('click', () => alert('Vrouw met de Baby'));
 
 // tafel met kunst
 const Tafelmetkunst = new XRImage('../assets/images/Lisse-art.jpg')
@@ -66,7 +71,7 @@ Tafelmetkunst.setPosition(4.2824, 3.05, -7.227);
 Tafelmetkunst.setRotation(-0.019, -88.0417, -0.605);
 Tafelmetkunst.setScale(2.215, 1.54, 0.2);
 
-Tafelmetkunst.addEventListener('click', () => alert('tekst'));
+Tafelmetkunst.addEventListener('click', () => alert('Tafel met eten'));
 
 const ruiken = new XRImage('../assets/images/Lisse-003.jpg')
 ruiken.setPosition(4.2824, 3.05, -4);
@@ -74,20 +79,21 @@ ruiken.setRotation(-0.019, -88.0417, -0.605);
 ruiken.setScale(2.215, 1.54, 0.2);
 
 ruiken.addEventListener('click', () => alert('Ruiken'));
+ruiken.addEventListener('click', () => alert('Ruiken naar het kunstwerk'));
 
 const potten = new XRImage('../assets/images/Lisse-006.png')
 potten.setPosition(-3.9, 2.592, -8.220);
 potten.setRotation(-0, 90, -0.605);
 potten.setScale(2.289, 1.987, 0.017);
 
-potten.addEventListener('click', () => alert('tekst'));
+potten.addEventListener('click', () => alert('een tafeltje met kunst'));
 
 const poppen = new XRImage('../assets/images/Lisse-001.png')
 poppen.setPosition(-3.9, 2.592, -4.220);
 poppen.setRotation(-0, 90, -0.605);
 poppen.setScale(2.289, 1.987, 0.017);
 
-poppen.addEventListener('click', () => alert('tekst'));
+poppen.addEventListener('click', () => alert('Mensen rond het tafeltje met kunst'));
 
 const ingang = new XRImage('../assets/images/GateMuzeum.jpg')
 ingang.setPosition(0.1, 3.4, -1.75);
@@ -109,7 +115,7 @@ melkmeisje.setPosition(2, 1, -4.227);
 melkmeisje.setRotation(-0.019, -50.0417, -0.605);
 melkmeisje.setScale(45.215, 46.54, 50);
 
-melkmeisje.addEventListener('click', () => alert('tekst'));
+melkmeisje.addEventListener('click', () => alert('Het Melkmeisje'));
 
 
 
