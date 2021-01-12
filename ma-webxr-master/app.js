@@ -53,7 +53,7 @@ Folkert.setScale(2.289, 1.987, 0.017)
 Folkert.addEventListener('click', () => alert('Dit is een kunstwerk van Folkert de Jong'));
 
 // vrouw met baby
-const vrouwmetbaby = new XRImage('../assets/images/Lisse-004.png')
+const vrouwmetbaby = new XRImage('../assets/images/Lisse-004.jpg')
 vrouwmetbaby.setPosition(-0.2, 2.592, -10.315);
 vrouwmetbaby.setRotation(-0, 5.977, -0.605);
 vrouwmetbaby.setScale(2.289, 1.987, 0.017);
@@ -68,12 +68,12 @@ Tafelmetkunst.setScale(2.215, 1.54, 0.2);
 
 Tafelmetkunst.addEventListener('click', () => alert('tekst'));
 
-const ruiken = new XRImage('../assets/images/Lisse-003.png')
+const ruiken = new XRImage('../assets/images/Lisse-003.jpg')
 ruiken.setPosition(4.2824, 3.05, -4);
 ruiken.setRotation(-0.019, -88.0417, -0.605);
 ruiken.setScale(2.215, 1.54, 0.2);
 
-ruiken.addEventListener('click', () => alert('tekst'));
+ruiken.addEventListener('click', () => alert('Ruiken'));
 
 const potten = new XRImage('../assets/images/Lisse-006.png')
 potten.setPosition(-3.9, 2.592, -8.220);
@@ -89,7 +89,7 @@ poppen.setScale(2.289, 1.987, 0.017);
 
 poppen.addEventListener('click', () => alert('tekst'));
 
-const ingang = new XRImage('../assets/images/GateMuzeum.png')
+const ingang = new XRImage('../assets/images/GateMuzeum.jpg')
 ingang.setPosition(0.1, 3.4, -1.75);
 ingang.setRotation(-0, 2.75, 0);
 ingang.setScale(9, 5, 0.017);
