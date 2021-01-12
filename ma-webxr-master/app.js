@@ -41,18 +41,24 @@ const image = new XRImage('assets/images/Lisse-049.jpg');
 image.setPosition(2.512, 2.592, -11.194);
 image.setRotation(-0, 5.977, -0.605);
 image.setScale(2.289, 1.987, 0.017);
-//Folkert
 
+image.addEventListener('click', () => alert('haha'));
+
+//Folkert
 const Folkert = new XRImage('assets/images/FolkertdeJong.jpg');
 Folkert.setPosition(-2.845, 2.592, -10.868);
 Folkert.setRotation(-0, 5.977, -0.605);
 Folkert.setScale(2.289, 1.987, 0.017)
-// vrouw met baby
 
+Folkert.addEventListener('click', () => alert('Dit is een kunstwerk van Folkert de Jong'));
+
+// vrouw met baby
 const vrouwmetbaby = new XRImage('../assets/images/Lisse-004.png')
 vrouwmetbaby.setPosition(-0.2, 2.592, -10.315);
 vrouwmetbaby.setRotation(-0, 5.977, -0.605);
 vrouwmetbaby.setScale(2.289, 1.987, 0.017);
+
+vrouwmetbaby.addEventListener('click', () => alert('tekst'));
 
 // tafel met kunst
 const Tafelmetkunst = new XRImage('../assets/images/Lisse-art.jpg')
@@ -60,20 +66,28 @@ Tafelmetkunst.setPosition(4.2824, 3.05, -7.227);
 Tafelmetkunst.setRotation(-0.019, -88.0417, -0.605);
 Tafelmetkunst.setScale(2.215, 1.54, 0.2);
 
+Tafelmetkunst.addEventListener('click', () => alert('tekst'));
+
 const ruiken = new XRImage('../assets/images/Lisse-003.png')
 ruiken.setPosition(4.2824, 3.05, -4);
 ruiken.setRotation(-0.019, -88.0417, -0.605);
 ruiken.setScale(2.215, 1.54, 0.2);
+
+ruiken.addEventListener('click', () => alert('tekst'));
 
 const potten = new XRImage('../assets/images/Lisse-006.png')
 potten.setPosition(-3.9, 2.592, -8.220);
 potten.setRotation(-0, 90, -0.605);
 potten.setScale(2.289, 1.987, 0.017);
 
+potten.addEventListener('click', () => alert('tekst'));
+
 const poppen = new XRImage('../assets/images/Lisse-001.png')
 poppen.setPosition(-3.9, 2.592, -4.220);
 poppen.setRotation(-0, 90, -0.605);
 poppen.setScale(2.289, 1.987, 0.017);
+
+poppen.addEventListener('click', () => alert('tekst'));
 
 const ingang = new XRImage('../assets/images/GateMuzeum.png')
 ingang.setPosition(0.1, 3.4, -1.75);
@@ -90,13 +104,12 @@ deur2.setPosition(0.826, 1.94, -0.49);
 deur2.setRotation(0, -134.6, 179);
 deur2.setScale(9, 5, 1);
 
-
 const melkmeisje = new Model('../assets/models/vermeer/export_museumprops.babylon.gltf')
 melkmeisje.setPosition(2, 1, -4.227);
 melkmeisje.setRotation(-0.019, -50.0417, -0.605);
 melkmeisje.setScale(45.215, 46.54, 50);
 
-
+melkmeisje.addEventListener('click', () => alert('tekst'));
 
 
 
@@ -107,18 +120,12 @@ const spotLight = new SpotLight();
 spotLight.setPosition(-3.39382, 4.72931, 1.37905);
 spotLight.setTarget(minecraftModel);
 
-// listen for an event
-// minecraftModel.addEventListener('click', () => alert('je klikt op mij'));
-
-// const lucht = new Sky ('../assets/images/Lisse-ingang.jpg');
-
 const paintModel = new model('assets/models/minecraft/source/paintcan.blend')
 paintModel.setPosition(-2, 3, -3);
 paintModel.setScale(0.05, 0.05, 0.05);
 paintModel.setRotation(0, -36.95, 0);
 
-Folkert.addEventListener('click', () => alert('je klikt op mij'));
 
 
-// document.getElementById('extraText').innerText= "Kunstwerk van Folkert de Jong");
+
 
