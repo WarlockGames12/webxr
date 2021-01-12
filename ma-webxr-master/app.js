@@ -47,7 +47,7 @@ image.setPosition(2.512, 2.592, -11.194);
 image.setRotation(-0, 5.977, -0.605);
 image.setScale(2.289, 1.987, 0.017);
 
-image.addEventListener('click', () => alert('Kunst op Muur'));
+image.addEventListener('click', () => alert('Kunstwerk ‘Food Chain Project’ van kunstenaar Itamar Gilboa. Alles wat je ziet liggen is door Itamar Gilboa in een jaar gegeten en in porselein gemaakt.'));
 
 //Folkert
 const Folkert = new XRImage('assets/images/FolkertdeJong.jpg');
@@ -71,14 +71,14 @@ Tafelmetkunst.setPosition(4.2824, 3.05, -7.227);
 Tafelmetkunst.setRotation(-0.019, -88.0417, -0.605);
 Tafelmetkunst.setScale(2.215, 1.54, 0.2);
 
-Tafelmetkunst.addEventListener('click', () => alert('Tafel met eten'));
+Tafelmetkunst.addEventListener('click', () => alert('The Last Supper van Yinka Shonibare is een van de eyecatchers in het LAM. Je kunt er niet omheen. Figuurlijk dan. Letterlijk moet je er juist omheen. Ook achter de tafel ontdek je eindeloos veel verhalen. Yinka liet zich voor dit imposante werk inspireren door Leonardo da Vinci’s Laatste Avondmaal.'));
 
 const ruiken = new XRImage('../assets/images/Lisse-003.jpg')
 ruiken.setPosition(4.2824, 3.05, -4);
 ruiken.setRotation(-0.019, -88.0417, -0.605);
 ruiken.setScale(2.215, 1.54, 0.2);
 
-ruiken.addEventListener('click', () => alert('Ruiken naar het kunstwerk'));
+ruiken.addEventListener('click', () => alert('Kunstwerk ‘chocoladeportretten’ van kunstenaar Djonga Bismar'));
 
 const potten = new XRImage('../assets/images/Lisse-006.png')
 potten.setPosition(-3.9, 2.592, -8.220);
@@ -92,7 +92,7 @@ poppen.setPosition(-3.9, 2.592, -4.220);
 poppen.setRotation(-0, 90, -0.605);
 poppen.setScale(2.289, 1.987, 0.017);
 
-poppen.addEventListener('click', () => alert('Mensen rond het tafeltje met kunst'));
+poppen.addEventListener('click', () => alert('Nog een foto van The Last Supper gemaakt door: Yinka Shonibare. Geinspireerd door Leonardo da Vinci laatste avondmaal.'));
 
 const ingang = new XRImage('../assets/images/GateMuzeum.png')
 ingang.setPosition(0.1, 3.4, -1.75);
