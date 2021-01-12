@@ -114,7 +114,7 @@ melkmeisje.setPosition(2, 1, -4.227);
 melkmeisje.setRotation(-0.019, -50.0417, -0.605);
 melkmeisje.setScale(45.215, 46.54, 50);
 
-melkmeisje.addEventListener('click', () => alert('Het Melkmeisje'));
+melkmeisje.addEventListener('click', () => alert('Het melkmeisje, ook wel De keuken- of melkmeid genoemd, is een schilderij van de Hollandse meester Johannes Vermeer uit circa 1660. In een veilingcatalogus uit 1696 wordt het werk vermeld als Een Meyd die Melk uytgiet. Deze staat niet in het LAM, maar is voor ons een mooie 3D toepassing'));
 
 
 
