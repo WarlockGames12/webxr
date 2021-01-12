@@ -85,7 +85,7 @@ potten.setPosition(-3.9, 2.592, -8.220);
 potten.setRotation(-0, 90, -0.605);
 potten.setScale(2.289, 1.987, 0.017);
 
-potten.addEventListener('click', () => alert('een tafeltje met kunst'));
+potten.addEventListener('click', () => alert('Opmerkelijk verkleurde esthetische stillevens van Folkert de Jong en een soort 3D-schetsboek van Henk Visch op twee speciale tentoonstellingen in het onvolprezen park Middelheim onder de rook van Antwerpen.'));
 
 const poppen = new XRImage('../assets/images/Lisse-001.png')
 poppen.setPosition(-3.9, 2.592, -4.220);
