@@ -94,7 +94,7 @@ poppen.setScale(2.289, 1.987, 0.017);
 
 poppen.addEventListener('click', () => alert('Mensen rond het tafeltje met kunst'));
 
-const ingang = new XRImage('../assets/images/GateMuzeum.jpg')
+const ingang = new XRImage('../assets/images/GateMuzeum.png')
 ingang.setPosition(0.1, 3.4, -1.75);
 ingang.setRotation(-0, 2.75, 0);
 ingang.setScale(9, 5, 0.017);
