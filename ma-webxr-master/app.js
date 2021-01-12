@@ -78,7 +78,6 @@ ruiken.setPosition(4.2824, 3.05, -4);
 ruiken.setRotation(-0.019, -88.0417, -0.605);
 ruiken.setScale(2.215, 1.54, 0.2);
 
-ruiken.addEventListener('click', () => alert('Ruiken'));
 ruiken.addEventListener('click', () => alert('Ruiken naar het kunstwerk'));
 
 const potten = new XRImage('../assets/images/Lisse-006.png')
