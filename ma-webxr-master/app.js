@@ -63,7 +63,7 @@ vrouwmetbaby.setPosition(-0.2, 2.592, -10.315);
 vrouwmetbaby.setRotation(-0, 5.977, -0.605);
 vrouwmetbaby.setScale(2.289, 1.987, 0.017);
 
-vrouwmetbaby.addEventListener('click', () => alert('Vrouw met de Baby'));
+vrouwmetbaby.addEventListener('click', () => alert('In het LAM museum vind je zijn tegenpool. Een jonge moeder met een pasgeboren baby. Alles klopt, alleen het formaat is vervreemdend. De moeder is zo groot als een 10-jarige.Ze zijn totaal verschillend, en toch ook weer niet. Gemaakt door dezelfde kunstenaar Ron Mueck, kwetsbaar, echter-dan-echt en prachtig imperfect. '));
 
 // tafel met kunst
 const Tafelmetkunst = new XRImage('../assets/images/Lisse-art.jpg')
