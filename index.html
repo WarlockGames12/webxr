@@ -9,6 +9,12 @@
     <link rel="stylesheet" type="text/css" href="style/style.css">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+	<script>
+	     $("#slideshow > div:gt(0)").hide();
+         setInterval(function() { 
+			 $('#slideshow > div:first').fadeOut(1000).next().fadeIn(1000).end().appendTo('#slideshow');
+		 },  3000);
+	</script>
 </head>
 <body>
     <div class="vierkant">
@@ -26,12 +32,15 @@
            </div>
         </div>
     </div>
+	
     <div class="vierkant2">
+	  <div class="slider">
         <div class="h1">
             <h2>Op deze website kunt u onze mooie kunst bewonderen online.</h2>
-            <p>Wij zijn erg trots met de kunst die wij kunnen laten zien aan onze klanten, wij willen graag dat u nadenkt over het kunstwerk aan u laten zien wordt,  de kunstwerken zijn meestal gemaakt van eten die niet meer wordt gebruikt, het eten wordt dan gerecycled en herbruikt voor deze kunstwerken.</p>
-            <p>Wij hebben ook een grote gallerij beschikbaar online waardoor u het kan bekijken, maar niet alle dingen zijn in de gallerij. De meeste kunstwerken kunt u bekijken in onze mooie museum gelokeerd in Lisse, u bent van harte welkom om deze museum te bezoeken.</p>
+			<p>Wij zijn trots op onze werk en proberen wij de kunst thuis te brengen zonder er naar toe te komen, een onvergeetbaar ervaring, voor de hele familie.</p>
+            <p>Om naar de VR sectie te komen, gaat u naar het menu knopje en een druk dan op VR, dat leid je naar de pagina met een knop, druk op de knop en dat leid je naar de VR ervaring.</p>
             <p></p>
+            
         </div>
         <br>
         <br>
@@ -117,7 +126,7 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 } 
 </script>-->
-
+</div>
     </div>
     <br>
     <br>
