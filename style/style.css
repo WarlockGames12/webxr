@@ -318,4 +318,11 @@ img {vertical-align: middle;}
 		transform: translateY(0);
 	}
 }
+.space-between{
+  width: 100px;
+  /* display: grid; */
+  justify-content: space-around;
+  margin-left: 40px;
+}
+
 
