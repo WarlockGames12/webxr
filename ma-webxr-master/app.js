@@ -66,7 +66,7 @@ vrouwmetbaby.setScale(2.289, 1.987, 0.017);
 vrouwmetbaby.addEventListener('click', () => alert('In het LAM museum vind je zijn tegenpool. Een jonge moeder met een pasgeboren baby. Alles klopt, alleen het formaat is vervreemdend. De moeder is zo groot als een 10-jarige.Ze zijn totaal verschillend, en toch ook weer niet. Gemaakt door dezelfde kunstenaar Ron Mueck, kwetsbaar, echter-dan-echt en prachtig imperfect. '));
 
 // tafel met kunst
-const Tafelmetkunst = new XRImage('../assets/images/Lisse-art.jpg')
+const Tafelmetkunst = new XRImage('assets/images/Lisse-art.jpg')
 Tafelmetkunst.setPosition(4.2824, 3.05, -7.227);
 Tafelmetkunst.setRotation(-0.019, -88.0417, -0.605);
 Tafelmetkunst.setScale(2.215, 1.54, 0.2);
@@ -125,10 +125,6 @@ const spotLight = new SpotLight();
 spotLight.setPosition(-3.39382, 4.72931, 1.37905);
 spotLight.setTarget(minecraftModel);
 
-const paintModel = new model('assets/models/minecraft/source/paintcan.blend')
-paintModel.setPosition(-2, 3, -3);
-paintModel.setScale(0.05, 0.05, 0.05);
-paintModel.setRotation(0, -36.95, 0);
 
 
 
