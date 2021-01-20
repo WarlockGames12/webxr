@@ -320,10 +320,9 @@ img {vertical-align: middle;}
 }
 .space-between{
   width: 100px;
-  /* display: grid; */
-  justify-content: space-around;
   margin-left: 40px;
   margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 
